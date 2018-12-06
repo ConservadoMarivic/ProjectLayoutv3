@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.07999998" />
 
     <ImageView
-        android:id="@+id/imageView15"
+        android:id="@+id/pic3Scenter"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -41,7 +41,7 @@
         app:srcCompat="@drawable/preview_3scenter" />
 
     <ImageView
-        android:id="@+id/imageView16"
+        android:id="@+id/picParada"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/pic3Scenter"
         app:layout_constraintVertical_bias="0.293"
         app:srcCompat="@drawable/preview_parada" />
 </android.support.constraint.ConstraintLayout>
