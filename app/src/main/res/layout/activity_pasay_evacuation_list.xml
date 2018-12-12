@@ -16,16 +16,16 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Pasay City Evacuation Center/s"
+        android:text="Pasay City Evacuation Centers"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.17000002" />
+        app:layout_constraintVertical_bias="0.091" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/picCuneta"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -38,6 +38,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.13"
+        app:layout_constraintVertical_bias="0.092"
         app:srcCompat="@drawable/preview_cunetaastrodome1" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/picCuneta"
+        app:layout_constraintVertical_bias="0.315"
+        app:srcCompat="@drawable/preview_pasaycitypool" />
 </android.support.constraint.ConstraintLayout>

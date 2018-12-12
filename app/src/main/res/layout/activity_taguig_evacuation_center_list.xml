@@ -16,7 +16,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Taguig City Evacuation Center/s"
+        android:text="Taguig City Evacuation Centers"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.07999998" />
 
     <ImageView
-        android:id="@+id/imageView14"
+        android:id="@+id/picSenator"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -38,6 +38,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
-        app:layout_constraintVertical_bias="0.18"
+        app:layout_constraintVertical_bias="0.055"
         app:srcCompat="@drawable/preview_senator" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="188dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/picSenator"
+        app:layout_constraintVertical_bias="0.315"
+        app:srcCompat="@drawable/preview_taguigsciencehs" />
 </android.support.constraint.ConstraintLayout>

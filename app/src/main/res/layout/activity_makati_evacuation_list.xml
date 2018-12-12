@@ -17,7 +17,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="48dp"
-        android:text="Makati City Evacuation Center/s"
+        android:text="Makati City Evacuation Centers"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button_barangay"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
         app:layout_constraintVertical_bias="0.76" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/picBangkal"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -43,7 +43,7 @@
         app:srcCompat="@drawable/preview_barangaybangkal" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/picUnivMakati"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -55,7 +55,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintTop_toBottomOf="@+id/picBangkal"
         app:layout_constraintVertical_bias="0.29000002"
         app:srcCompat="@drawable/preview_universityofmakati" />
 

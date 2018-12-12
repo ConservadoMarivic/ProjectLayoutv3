@@ -16,7 +16,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:text="Mandaluyong City Evacuation Center/s"
+        android:text="Mandaluyong City Evacuation Centers"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.07999998" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/picMandaGym"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -41,7 +41,7 @@
         app:srcCompat="@drawable/preview_mandaluyongcitygym" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/picMandaElem"
         android:layout_width="wrap_content"
         android:layout_height="188dp"
         android:layout_marginBottom="8dp"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/picMandaGym"
         app:layout_constraintVertical_bias="0.349"
         app:srcCompat="@drawable/preview_mandaluyongelementaryschool" />
 </android.support.constraint.ConstraintLayout>
