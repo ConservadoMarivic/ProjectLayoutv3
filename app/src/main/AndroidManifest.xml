@@ -25,7 +25,27 @@
         <activity android:name=".QuezonCityEvacuationList" />
         <activity android:name=".SanJuanEvacuationCenterList" />
         <activity android:name=".TaguigEvacuationCenterList" />
-        <activity android:name=".ValenzuelaEvacuationCenterList"></activity>
+        <activity android:name=".ValenzuelaEvacuationCenterList" />
+        <activity android:name=".Laloma" />
+        <activity android:name=".ManilaCentralUniversity" />
+        <activity android:name=".BarangayBangkalHall" />
+        <activity android:name=".UniversityOfMakati" />
+        <activity android:name=".MandaluyongCityGymnasium" />
+        <activity android:name=".MandaluyongElementarySchool" />
+        <activity android:name=".CorazonAquinoHighschool" />
+        <activity android:name=".ust" />
+        <activity android:name=".NavotasElemtarySchool" />
+        <activity android:name=".NavotasNationalHighschool" />
+        <activity android:name=".pasaysportscomplex" />
+        <activity android:name=".PASAYCunetaAstrodome" />
+        <activity android:name=".sinagtalaelemtaryschool" />
+        <activity android:name=".stodomingoparishchurch" />
+        <activity android:name=".pinaglabanmemorialshrine" />
+        <activity android:name=".barangaysalapanhall" />
+        <activity android:name=".Senator" />
+        <activity android:name=".taguigsciencehighschool" />
+        <activity android:name=".scenter" />
+        <activity android:name=".parada"></activity>
     </application>
 
 </manifest>
